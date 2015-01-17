@@ -12,7 +12,7 @@
 
 void Char1::update()
 {
-	Gizmos::addAABBFilled(vm_Position, glm::vec3(0.1f), glm::vec4(1, 1, 0, 1));
+	Gizmos::addAABBFilled(vm_Position, glm::vec3(0.1f), glm::vec4(1, 0, 0, 1));
 }
 
 void Char1::ChooseNextWaypoint(Char2 *Bot2, Char1 *Bot1)
